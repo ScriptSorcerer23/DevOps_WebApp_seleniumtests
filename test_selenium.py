@@ -18,7 +18,7 @@ def driver():
     yield driver
     driver.quit()
 
-BASE_URL = "http://localhost:5000"
+BASE_URL = "http://54.183.180.138:5000"
 
 def test_homepage_load(driver):
     driver.get(BASE_URL)
